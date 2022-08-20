@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Web Search</title>
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- logo -->
+      <div class="logo">
+        <div class="container">
+          <p>Movie<span>corn.</span></p>
+        </div>
+      </div>
+      <!-- end logo -->
+      <!-- Search container -->
+      <div class="search-container">
+        <div class="search-element">
+          <h3>Search Movie:</h3>
+          <input type="text" class="form-control" placeholder="Search Movie Title ..." id="movie-search-box" onkeyup="findMovies()"> 
+          <div class="search-list" id="search-list">
+             <!-- list here -->
+             <div class="search-list-item">
+                <div class="search-item-thumbnail">
+                  <img src="picture/BLACK-PANTHER.jpg" alt="image">
+                </div>
+                <div class="search-item-info">
+                  <h3>BLACK-PANTHER Vol. 1</h3>
+                  <p>2013</p>
+                </div>
+             </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- end search container -->
+      <!-- result container -->
+      <div class="container">
+        <div class="result-container">
+          <div class="result-grid" id="result-grid">
+            <!-- movie information -->
+            <!-- <div class="movie-poster">
+              <img src="picture/BLACK-PANTHER.jpg" alt="movie-poster">
+            </div>
+            <div class="movie-info">
+              <h3 class="movie-title">Black Panther</h3>
+              <ul class="movie-misc-info">
+                <li class="year">Year: 2018</li>
+                <li class="rated">Ratings: PG-13</li>
+                <li class="released">Released: 16 Feb 2018</li>
+              </ul>
+              <p class="genre"><b>Genre:</b>Action, Adventure, Sci-Fi</p>
+              <p class="writer"><b>Writer:</b>Ryan Coogler, Joe Robert Cole, Stan Lee</p>
+              <p class="actors"><b>Actors:</b>Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o</p>
+              <p class="plot"><b>Plot:</b> T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.</p>
+              <p class="language"><b>Language:</b> English</p>
+              <p class="awards"><b><i class="fas fa-award"></i> Won 3 Oscars</b></p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- end of result container -->
+    </div>
+
+      
+      
+
+      
+      
+   
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
